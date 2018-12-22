@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}    
+
+body {
+    background-color: lightblue;
+    margin-left: 20px;
+
+}
+
+header {
+    background-color: orange;
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+
+#instructions {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(245, 219, 219);
+    color: green;
+    width: 50%;
+    margin-bottom: 10px;
+
+
+
+}
+
+.game-number {
+    background-color: green;
+    color: black;
+    float: left;
+    width: 30%;
+
+
+}
+
+.game-score {
+    background-color: rgb(28, 243, 232);
+    width: 15%;
+    margin-bottom: 10ox;
+
+
+}
+
+.crystals {
+    align-items: left;
+    float:left;
+    clear: both;
+    background-color: white;
+    margin-bottom: 10px;
+
+    
+
+}
+
+#your-score {
+    clear: both;
+    width: 25%;
+
+
+
+}
+
+.score-header {
+    background-color: rgb(8, 114, 128);
+
+
+}
+
+.current-score {
+    background-color: rgb(8, 114, 128);
+
+
+}
+
+
+
+

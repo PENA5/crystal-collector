@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset = "UTF-8">
+<title>Crystal Collector</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href = "assets/css/style.css">
+<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Crystal Collector!</h1>
+</header>
+
+<div id = "instructions">
+<p>You will be given a random number at the start of the game.
+</p>
+
+   <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+   </p>
+
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+    </p>
+
+   <p> The value of each crystal is hidden from you until you click on it.
+   </p>
+
+   <p> For each round, the game will change the values of each crystal. 
+   </p>
+
+<p>Good Luck</p>
+
+</div>
+
+<div id="game">
+<div class = "game-number"></div>
+
+<div class = "game-score">
+<h6 class="wins">Wins:</h6>
+<h6 class="losses">Losses:</h6>
+</div>
+
+</div>
+
+<div class = "crystals">
+<img src ="./assets/images/blue.png">
+<img src ="./assets/images/red.png">
+<img src ="./assets/images/yellow.png">
+<img src ="./assets/images/green.png">
+
+</div>
+
+<div id="your-score" class="card">
+<h6 class="score-header">Your total score is:</h6>
+<div class="current-score"></div>
+
+
+</div>
+
+
+
+<footer></footer>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
